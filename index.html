@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Lamia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <!-- header part -->
+
+    <header  id="home">
+        <div class="header-content">
+            <div class="logo">
+                <h1>fa<span>t</span>iha</h1>
+            </div>
+       
+           <ul id="nav-menu">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li class="dropdown"><a href="#service">Services<i class="fas fa-chevron-down"></i></a>
+                  <ul class="dropdown-inner">
+                      <li><a href="#service">Web Design</a></li>
+                      <li><a href="#service">Web Development</a></li>
+                      <li><a href="#service">Graphics Design</a></li>
+                  </ul>               
+                </li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#testimonial">Testimonial</a></li>
+               <li><a href="#contact">Contact</a></li>
+           </ul>
+           <div class="ham" id="toggle" onclick="menuopen()">&#9776;</div>
+           <div class="ham" id="toggle2" style="display:none" onclick="menuclose()">&#10005;</div>
+        </div>
+        <div class="hero"  data-aos="fade-up" data-aos-duration="1000">
+            <div class="hero-content">
+                <h1>Hello</h1>
+                <p>I<span>'</span>m Lamia Fatiha</p>
+                <h3>I<span>'</span>m a <span class="element">Web Developer & Designer</span></h3>
+            </div>
+            <div class="icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+       <a href="#about">
+        <div class="scroll-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+       </a>
+    </header>
+
+    <!-- header ends -->
+
+    <!-- about starts -->
+
+    <div id="about">
+        <h1>About Me</h1>
+        <div class="about-content">
+            <div class="about-img" data-aos="fade-right" data-aos-duration="1000">
+                <img src="img/img-3.png" alt="my image">
+            </div>
+            <div class="text-area" data-aos="fade-left" data-aos-duration="1000">
+                <h2>I'm Lamia Fatiha</h2>
+                <h3>I'm a <span>Web Developer & Designer</span></h3>
+                <p>I have 2 years experience in Web Design & Developement.I have done different 
+                    courses on Front End Development and achieved many certificates.
+                    I am expert in HTML, CSS, Javascript, Bootstrap, jQuery which are fully responsive.
+                   <br><br>I provide 100% good quality work. I have already done many projects. 
+                    You can check it in my portfolio section.
+                    My service will be the reflection of your thoughts.                     
+                </p>
+            </div>
+        </div>
+        <div class="certificates" data-aos="fade-up" data-aos-duration="1000">
+            <h1>Certificates</h1>
+            <div class="row">
+                <a href="img/c-1.png">
+                    <div class="col">
+                        <img src="img/c-1.png" alt="">
+                        <p>Certificate On HTML5</p>
+                    </div>
+                </a>
+                <a href="img/c-2.png">
+                    <div class="col">
+                        <img src="img/c-2.png" alt="">
+                        <p>Certificate On CSS3</p>
+                    </div>
+                </a>
+                <a href="img/c-3.png">
+                    <div class="col">
+                        <img src="img/c-3.png" alt="">
+                        <p>Certificate On HTML,CSS,JAVASCRIPT</p>
+                    </div>
+                </a>
+               <a href="img/c-4.jpg">
+                <div class="col">
+                    <img src="img/c-4.jpg" alt="">
+                    <p>Certificate On Graphics Design</p>
+                </div>
+               </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- about ends -->
+
+   <!--  services -->
+
+    <div id="service">
+        <h1>Services I Provide</h1>
+        <div class="service-content" data-aos="fade-up" data-aos-duration="1000">
+            <div class="row">
+                <div class="col">
+                    <span><i class="fas fa-paint-brush"></i></span>
+                    <h3>Web Design</h3>
+                    <p>I make any website using
+                    HTML, CSS, Javascript, Bootstrap, jQuery, Fully responsive</p>
+                </div>
+                <div class="col">
+                    <span><i class="fas fa-edit"></i></span>
+                    <h3>Web Development</h3>
+                    <p>I provide php, python, CMS, node js service in web development</p>
+                </div>
+                <div class="col">
+                    <span><i class="fas fa-chart-pie"></i></span>
+                    <h3>Graphics Design</h3>
+                    <p>I can design your logo, poster, business card, flyer, brochure</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--  services end-->
+
+      <!--  skllis starts-->
+
+      <div id="skills">
+        <h1>My Skills</h1>
+        <div class="skills-content" data-aos="fade-up" data-aos-duration="1000">
+            <div class="row">
+                <div class="col">
+                  <svg class="radial-progress" data-percentage="100" viewBox="0 0 80 80">
+                      <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                      <circle class="complete one" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                      <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">100%</text>
+                    </svg>
+                    <h2>HTML</h2>
+                </div>
+                <div class="col">
+                  <svg class="radial-progress" data-percentage="95" viewBox="0 0 80 80">
+                      <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                      <circle class="complete two" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                      <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">95%</text>
+                    </svg>
+                    <h2>CSS</h2>
+                    
+                </div>
+                <div class="col">
+                  <svg class="radial-progress" data-percentage="80" viewBox="0 0 80 80">
+                      <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                      <circle class="complete three" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                      <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
+                    </svg>
+                    <h2>Javascript</h2>
+                </div>
+                <div class="col">
+                  <svg class="radial-progress" data-percentage="85" viewBox="0 0 80 80">
+                      <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                      <circle class="complete four" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                      <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                    </svg>
+                    <h2>Bootstrap</h2>
+                </div> 
+                <div class="col">
+                    <svg class="radial-progress" data-percentage="80" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete five" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
+                      </svg>
+                      <h2>jQuery</h2>
+                  </div>            
+          </div>
+        </div>
+      </div>
+
+      <!--  skills end-->
+
+      <!-- portfolio starts -->
+
+      <div id="portfolio">
+          <h1>My Portfolio</h1>
+          <div class="portfolio-content" data-aos="zoom-in" data-aos-duration="1000">
+              <div class="box">
+                  <div class="row">
+                      <div class="col">
+                          <img src="img/p-1.png" alt="portfolio image">
+                          <div class="overlay-img">
+                              <h3>Web Design</h3>
+                              <button onclick="detail()">Details</button>
+                              <a href="img/p-1.png"><button>Demo</button></a>
+                          </div>
+                            <div class="detail-sec" id="detail-sec">
+                                <div class="cross" onclick="crossdetail()" id="closedetail">&#10005;</div>
+                                  <div class="detail-img">
+                                      <img src="img/p-1.png" alt="detail img">
+                                  </div>
+                                  <div class="details-descrip">
+                                    <h2><span>Title:</span> Web Design<h2>
+                                        <p><span>Description:</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                          Quos unde similique libero sint at quia.sit amet consectetur adipisicing elit. 
+                                          Quos unde similique libero sint at quia</p>
+                                        <h4><span>Date:</span> 12/04/2019</h4>
+                                  </div>
+                              </div>
+                      </div>
+                      <div class="col">
+                        <img src="img/p-2.jpg" alt="portfolio image">
+                        <div class="overlay-img">
+                            <h3>Web Design</h3>
+                            <button onclick="detailT()">Details</button>
+                            <a href="img/p-2.jpg"><button>Demo</button></a>
+                        </div>
+                        <div class="detail-sec" id="detail-sec2">  
+                            <div class="cross" onclick="crossdetailT()" id="closedetail">&#10005;</div>                          
+                              <div class="detail-img">
+                                  <img src="img/p-2.jpg" alt="detail img">
+                              </div>
+                              <div class="details-descrip">
+                                <h2><span>Title:</span> Web Design<h2>
+                                    <p><span>Description:</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                      Quos unde similique libero sint at quia.sit amet consectetur adipisicing elit. 
+                                      Quos unde similique libero sint at quiasit amet consectetur adipisicing elit. 
+                                      Quos unde similique libero sint at quia</p>
+                                    <h4><span>Date:</span> 25/08/2018</h4>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <img src="img/p-3.jpg" alt="portfolio image">
+                        <div class="overlay-img">
+                            <h3>Web Design</h3>
+                            <button onclick="detailTH()">Details</button>
+                            <a href="img/p-3.jpg"><button>Demo</button></a>
+                        </div>
+                        <div class="detail-sec" id="detail-sec3">
+                            <div class="cross" onclick="crossdetailTH()" id="closedetail">&#10005;</div>                      
+                              <div class="detail-img">
+                                  <img src="img/p-3.jpg" alt="detail img">
+                              </div>
+                              <div class="details-descrip">
+                                <h2><span>Title:</span> Web Design<h2>
+                                    <p><span>Description:</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                      Quos unde similique libero sint at quia.sit amet consectetur adipisicing elit. 
+                                      Quos unde similique libero sint at quia. Quos unde similique libero sint at quia</p>
+                                    <h4><span>Date:</span> 19/09/2020</h4>
+                              </div>
+                          </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col">
+                        <img src="img/p-4.png" alt="portfolio image">
+                        <div class="overlay-img">
+                            <h3>Web Development</h3>
+                            <button onclick="detailF()">Details</button>
+                            <a href="img/p-4.png"><button>Demo</button></a>
+                        </div>
+                        <div class="detail-sec" id="detail-sec4">
+                            <div class="cross" onclick="crossdetailF()" id="closedetail">&#10005;</div>
+                              <div class="detail-img">
+                                  <img src="img/p-4.png" alt="detail img">
+                              </div>
+                              <div class="details-descrip">
+                                <h2><span>Title:</span> Web Development<h2>
+                                    <p><span>Description:</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                      Quos unde similique libero sint at quia.similique libero sint at quiasit amet consectetur adipisicing elit. 
+                                      Quos unde similique libero sint at quia</p>
+                                    <h4><span>Date:</span> 26/11/2020</h4>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                      <img src="img/p-5.jpg" alt="portfolio image">
+                      <div class="overlay-img">
+                          <h3>Web Development</h3>
+                          <button onclick="detailFv()">Details</button>
+                          <a href="img/p-5.jpg"><button>Demo</button></a>
+                      </div>
+                      <div class="detail-sec" id="detail-sec5">
+                        <div class="cross" onclick="crossdetailFv()" id="closedetail">&#10005;</div> 
+                          <div class="detail-img">
+                              <img src="img/p-5.jpg" alt="detail img">
+                          </div>
+                          <div class="details-descrip">
+                            <h2><span>Title:</span> Web Development<h2>
+                                <p><span>Description:</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                  Quos unde similique libero sint at quia.sit amet consectetur adipisicing elit. 
+                                  Quos unde similique libero sint at quia</p>
+                                <h4><span>Date:</span> 22/12/2019</h4>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <img src="img/p-6.jpg" alt="portfolio image">
+                      <div class="overlay-img">
+                          <h3>Web Development</h3>
+                          <button onclick="detailS()">Details</button>
+                          <a href="img/p-6.jpg"><button>Demo</button></a>
+                      </div>
+                      <div class="detail-sec" id="detail-sec6">
+                        <div class="cross" onclick="crossdetailS()" id="closedetail">&#10005;</div>
+                          <div class="detail-img">
+                              <img src="img/p-6.jpg" alt="detail img">
+                          </div>
+                          <div class="details-descrip">
+                            <h2><span>Title:</span> Web Development<h2>
+                                <p><span>Description:</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                  Quos unde similique libero sint at quia.sit amet consectetur adipisicing elit. 
+                                  Quos unde similique libero sint at quia:Lorem ipsum dolor, sit amet consectetur</p>
+                                <h4><span>Date:</span> 24/05/2021</h4>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <!-- portfolio ends -->
+
+
+      <!-- testimonial starts -->
+
+      <div id="testimonial">
+        <h1>Happy Clients</h1>
+       <div class="testimonial-content" data-aos="zoom-in" data-aos-duration="1000"> 
+        <div class="row">
+            <div class="col">
+                <img src="img/man.jpg" alt="men">
+                <h3>ANNE HATHAWA</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Her service is very nice.I have work with her 
+                    many times and she never disappoint me.</p>
+                  <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="far fa-envelope"></i>
+                  </div>
+            </div>
+            <div class="col">
+                <img src="img/man.jpg" alt="men">
+                <h3>Kate Upton</h3>
+                 <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Her service & behavior is very nice. 
+                    Fully satisfied with her service..</p>
+                  <div class="social-icons">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="far fa-envelope"></i>
+                  </div>
+            </div>
+            <div class="col">
+                <img src="img/man.jpg" alt="men">
+                <h3>Olivia Wilde</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>                   
+                </div>
+                <p>Her service is very nice.I have work with her 
+                    many times and she never disappoint me. 
+                    </p>
+                  <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="far fa-envelope"></i>
+                  </div>
+            </div>
+            <div class="col">
+                <img src="img/man.jpg" alt="men">
+                <h3>Ashley Greene</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>I have work with her many times.
+                    Fully satisfied with her service.</p>
+                  <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="far fa-envelope"></i>
+                  </div>
+            </div>
+        </div>
+    </div>
+      </div>
+      <!-- testimonial ends -->
+
+      <!-- contact starts -->
+           
+         <div id="contact">
+             <h1>Contact Me</h1>
+             <div class="contact-content">
+                 <div class="row">
+                     <div class="box" id="info-2" data-aos="zoom-in-down" data-aos-duration="1000">
+                        <div class="col">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <p>15/6 Sadar Road,<br>Barishal</p>
+                            </div>
+                         </div>
+                         <div class="col">
+                            <i class="fas fa-phone-alt"></i>
+                            <div class="info">
+                                <p>+88 - 0123 - 467 - 78</p>
+                            </div>
+                         </div>
+                         <div class="col">
+                            <i class="far fa-envelope"></i>
+                            <div class="info">
+                                <p>lamia12@gmail.com</p>
+                            </div>
+                         </div>
+                     </div>
+                     <div class="box" data-aos="zoom-in-up" data-aos-duration="1000">
+                         <h1>Login</h1>
+                         <form action="#">
+                             <input type="text" placeholder="Your Name" autocomplete="off" required><br>
+                             <input type="text" placeholder="Username" autocomplete="off" required><br>
+                             <input type="text" placeholder="Password" autocomplete="off" required><br>
+                             <textarea name="comment" placeholder="Comment"></textarea><br>
+                             <input type="submit" value="Submit">
+                         </form>
+                     </div>
+                 </div>
+             </div>
+
+         </div>
+
+      <!-- contact ends -->
+
+      <!-- footer starts -->
+
+      <div id="footer">
+        <div class="footer-contents">
+            <div class="logo">
+                <h1>fa<span>t</span>iha</h1>
+            </div>
+            <div class="footer-icons">
+                <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p><i class="far fa-handshake"></i>Thanks For Visiting</p>      
+        </div>
+        <div class="footer-text">
+            <a href="#">Terms and Conditions</a>
+            <a href="#" style="color: #1e272e; font-weight: bold;">|</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="copyright">
+            <p>&copy; Copyright 2021 <a href="#">Lamia Fatiha.</a> All rights reserved.</p>
+        </div>
+      </div>
+    
+      <!-- footer ends -->
+
+      <!-- on scroll starts-->
+
+<div class="scroll-btn" id="scroll-top" onclick="topFunction()" onmouseover="roundFunction()" onmouseout="sqrFunction()"> 
+    <div><i class="fas fa-chevron-up"></i></div>
+</div>
+
+      <!-- on scroll ends-->
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+      integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+      crossorigin="anonymous">
+      </script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="script.js"></script>
+ 
+</body>
+</html>
